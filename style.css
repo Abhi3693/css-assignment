@@ -1,0 +1,463 @@
+/* CSS Reset */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* General classes */
+
+* {
+  box-sizing: border-box;
+}
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+.text-center {
+  text-align: center;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+.sub-heading {
+  font-size: 15px;
+}
+.heading {
+  font-size: 2rem;
+  font-weight: 500;
+  padding-top: 3rem;
+}
+.line-small {
+  width: 5%;
+  margin: 1rem auto;
+  border-bottom: 2px solid black;
+}
+.line-large {
+  width: 100%;
+  height: 2px;
+  margin: 0.7rem auto;
+}
+.line-large2 {
+  width: 100%;
+  height: 1px;
+  margin: 0.7rem auto;
+}
+.back-black {
+  background-color: black;
+}
+.back-white {
+  background-color: white;
+}
+.text {
+  font-size: 10px;
+}
+.fw-600 {
+  font-weight: 600;
+}
+.fw-500 {
+  font-weight: 500;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+.d-flex {
+  display: flex;
+}
+.mt-1 {
+  margin-top: 1rem;
+}
+.justify-space-between {
+  justify-content: space-between;
+}
+.align-center {
+  align-items: center;
+}
+.text-white {
+  color: white;
+}
+.text-black {
+  color: black;
+}
+.relative {
+  position: relative;
+}
+.flex-48 {
+  flex: 1 47%;
+}
+.flex-23 {
+  flex: 1 23%;
+}
+.flex-30 {
+  flex: 1 30%;
+}
+.gap-1 {
+  gap: 1rem;
+}
+.mb-1 {
+  margin-bottom: 1rem;
+}
+.p-05 {
+  padding: 0.5rem 0;
+}
+.p-1 {
+  padding: 1rem 0rem;
+}
+.p-2 {
+  padding: 1rem 0rem;
+}
+.p-5 {
+  padding: 5rem 0rem;
+}
+.menu-info {
+  background-color: rgba(60, 16, 100, 0.7);
+}
+.btn {
+  background-color: transparent;
+  border: none;
+}
+.rated {
+  font-size: 10px;
+}
+
+/* Header */
+
+.header {
+  box-shadow: 2px 2px 8px rgb(110, 110, 110);
+}
+.header-img {
+  padding: 10px;
+}
+
+/* Varieties section */
+
+.varieties-left {
+  border-radius: 10px;
+}
+.varieties-left img {
+  border-radius: 10px;
+  width: 100%;
+}
+.varieties-right img {
+  border-radius: 10px;
+  width: 100%;
+}
+.varieties-heading {
+  padding: 0;
+}
+
+/* Menu */
+.menu-info-right p {
+  font-size: 10px;
+}
+.menu-heading {
+  font-size: 20px;
+}
+.menu-info {
+  padding: 5%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  position: absolute;
+  bottom: 4px;
+  left: 0;
+  right: 0;
+}
+.menu-btn {
+  padding: 0.5rem 1rem;
+  border: 1px solid white;
+  border-radius: 15px;
+}
+
+.varieties-card {
+  /* height: 50%; */
+  border-radius: 5px;
+}
+
+.varieties-right .menu-heading {
+  font-size: 15px;
+}
+.varieties-right p {
+  font-size: 10px;
+}
+/* .varieties-right .menu-info {
+  padding: 0 5%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+} */
+.card-3 .menu-info-right {
+  background-color: rgba(26, 25, 25, 0.7);
+}
+.card-3 .menu-info-right hr {
+  border: 0.7px solid rgb(238, 235, 235);
+}
+.menu-info-right {
+  background-color: rgba(244, 244, 244, 0.8);
+}
+.menu-info-right hr {
+  border: 0.7px solid rgb(71, 71, 71);
+}
+.menu-holder-right {
+  padding: 5%;
+}
+.menu-info-right {
+  bottom: 4px;
+  padding: 0 5%;
+}
+
+/* Cuisine */
+
+.cuisine-card {
+  padding: 2rem;
+}
+.cuisine-card-heading {
+  font-size: 18px;
+  font-weight: 700;
+}
+.cuisine-card-text {
+  font-size: 12px;
+}
+
+/* Chef */
+
+.chef-img {
+  width: 100%;
+  height: 350px;
+}
+.chef-img-1 {
+  width: 80px;
+  border-radius: 50%;
+}
+
+.chef-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 1.5rem;
+  width: 20%;
+  position: absolute;
+  top: 30px;
+  left: 40%;
+  background-color: white;
+  border-radius: 10px;
+  padding-bottom: 3rem;
+}
+
+.chef-card .heading {
+  font-size: 12px;
+}
+.chef-card p {
+  font-size: 10px;
+}
+.chef-card-left {
+  left: 13%;
+  background-color: transparent;
+}
+.chef-card-right {
+  right: 18%;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 1.5rem;
+  position: absolute;
+  top: 30px;
+}
+
+.chef-card-right .heading {
+  font-size: 12px;
+}
+.chef-card-right p {
+  font-size: 10px;
+}
+
+/* Food */
+
+.food-img {
+  width: 100%;
+}
+.food-heading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.food-box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-direction: column;
+  padding: 2rem;
+}
+.vector {
+  /* padding: 2rem; */
+  width: fit-content;
+  background-color: rgb(108, 102, 160);
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.vector-img {
+  width: 30px;
+}
+.sub-heading {
+  font-size: 15px;
+}
+
+.food-box-holder {
+  width: 30%;
+  position: absolute;
+  top: 3rem;
+  bottom: 0;
+  left: 10px;
+  gap: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.food-box-right {
+  width: 30%;
+  position: absolute;
+  top: 3rem;
+  bottom: 0;
+  right: 10px;
+  gap: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+}
